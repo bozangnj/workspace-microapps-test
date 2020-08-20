@@ -127,7 +127,7 @@
     "58579f7c-3eb7-4f05-8812-e0b0002631b1": "Clave del proyecto",
     "63181fa5-16e8-465c-8a3f-32490a5f77fd": "Buscar nombre de usuario asignado...",
     "fc6a3090-7a0b-4054-aa8e-fd6cda4abadf": "Clave de la incidencia",
-    "7a4fa743-439e-489b-8af3-76f295a92339": "{{subtask_to_parent_issue.key}} - {{subtask_to_parent_issue.fields_summary}}",
+    "7a4fa743-439e-489b-8af3-76f295a92339": "{{parent_issue.key}} - {{parent_issue.fields_summary}}",
     "c7f1091f-6c66-4fd4-b8ea-640abc95a261": "Estado",
     "d96ac173-ca7e-4345-a16e-98d1ed789238": "Autor",
     "3ed53ddb-7066-4dba-b7a5-ee670493d37d": "Última modificación",
