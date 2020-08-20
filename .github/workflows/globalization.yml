@@ -12,3 +12,11 @@ jobs:
         with:
           repoToken: ${{secrets.GITHUB_TOKEN}}
           skip: 'bundles/coming_soon/'
+      - name: Slack Notification
+        uses: archive/github-actions-slack@v1.0.0
+        with:
+          slack-bot-user-oauth-access-token: ${{ secrets.SLACKBOT_TOKEN }}
+          slack-channel: test_boz
+          slack-text: Hello! Event "${{ github.event_name }}" in "${{ github.repository }}"
+          slack-optional-icon_emoji: ":fire:"
+          slack-optional-as_user: false
