@@ -18,4 +18,4 @@ jobs:
         with:
           slack-bot-user-oauth-access-token: ${{ secrets.SLACKBOT_TOKEN }}
           slack-channel: test_boz
-          slack-text: Globalization issues has been found in https://github.com/"${{ github.repository }}"
+          slack-text: Globalization issues has been found in https://github.com/${{ github.repository }}
